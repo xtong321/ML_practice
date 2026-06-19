@@ -1,0 +1,4 @@
+.env
+.vscode/
+./ML-basic/.vscode/
+./ML-basic/__pycache__/
