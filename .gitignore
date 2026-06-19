@@ -1,2 +1,6 @@
-.DS_Store
+.env
 .vscode/settings.json
+.DS_Store
+./ML-basic/.DS_Store
+./ML-basic/.vscode/
+./ML-basic/__pycache__/
