@@ -26,7 +26,8 @@ learning_rate = 0.01
 epochs = 200
 for epoch in range(epochs):
     # forward prop: calc y_pred = x*w + b
-    #y_pred = X.matmul(w) + b。# broadcast issue !!
+    #y_pred = X.matmul(w) + b  # broadcast issue !!
+    #y_pred = torch.mm(X, w) + b
     y_pred = X * w + b # X@w + b
 
     # calc MSE loss
