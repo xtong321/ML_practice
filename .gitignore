@@ -1,5 +1,5 @@
 .env
-.vscode/
+.vscode/settings.json
 .DS_Store
 ./ML-basic/.DS_Store
 ./ML-basic/.vscode/
